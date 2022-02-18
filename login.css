@@ -1,0 +1,8 @@
+img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+  background: url(./images/record-collection.jpeg) no-repeat center scroll;
+  background-size: cover;
+}

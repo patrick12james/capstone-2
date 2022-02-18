@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+<title>Vinyl Me Now!</title>
+<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body>
+
+
+    <main>
+        <section class="landing">
+
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                  <a class="navbar-logo" href="./login.html"><img class="logo" src="./images/logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
+                      <a class="nav-link" href="./features.html">Features</a>
+                      <a class="nav-link" href="./aboutus.html">About Us</a>
+                      <a class="nav-link" href="./careers.html">Careers</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        <div>
+        <form action="" id="musicForm">
+            <fieldset>
+                <label for="first">Artist</label>
+                <input type="text" name="artist" id="artist">
+
+                <label for="last">Album</label>
+                <input type="text" name="album" id="album">
+
+                <a href="https://www.discogs.com/search/?q=kind+of+blue&type=all" target="_blank" class="neon-button">Vinyl Me Now<input type="button"></a>
+            </fieldset>
+        </form>
+        <ul id='musicList'>
+
+        </ul>
+
+          </div>
+        </section>
+    </main>
+      <div class="intro">
+        <div class="intro-text">
+          <h1 class="hide">
+            <span class="text">Life Without...</span>
+          </h1>
+          <h1 class="hide">
+            <span class="text">Music would...</span>
+          </h1>
+          <h1 class="hide">
+            <span class="text">♭ flat.</span>
+          </h1>
+        </div>
+      </div>
+      <div class="slider"></div>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous"
+      ></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script> <script src="./app.js"></script>
+</body>
+</html>
